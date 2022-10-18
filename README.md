@@ -34,7 +34,6 @@ No modules.
 |------|-------------|------|---------|:--------:|
 | <a name="input_cidr"></a> [cidr](#input\_cidr) | The address prefixes to use for the subnet | `string` | n/a | yes |
 | <a name="input_delegations"></a> [delegations](#input\_delegations) | (optional) subnet delegation | <pre>list(object({<br>    name    = string<br>    actions = list(string)<br>  }))</pre> | `[]` | no |
-| <a name="input_env"></a> [env](#input\_env) | Environment name | `string` | n/a | yes |
 | <a name="input_name"></a> [name](#input\_name) | The name of the subnet | `string` | n/a | yes |
 | <a name="input_network"></a> [network](#input\_network) | The name of the virtual network in which the subnet is created in | `string` | n/a | yes |
 | <a name="input_nsg_id"></a> [nsg\_id](#input\_nsg\_id) | The ID of the Network Security Group which should be associated with the Subnet | `string` | `""` | no |
@@ -46,10 +45,10 @@ No modules.
 
 | Name | Description |
 |------|-------------|
-| <a name="output_address_prefixes"></a> [address\_prefixes](#output\_address\_prefixes) | n/a |
-| <a name="output_id"></a> [id](#output\_id) | n/a |
-| <a name="output_name"></a> [name](#output\_name) | n/a |
-| <a name="output_nsg_association_id"></a> [nsg\_association\_id](#output\_nsg\_association\_id) | n/a |
+| <a name="output_address_prefixes"></a> [address\_prefixes](#output\_address\_prefixes) | The address prefixes to use for the subnet |
+| <a name="output_id"></a> [id](#output\_id) | The ID of the subnet |
+| <a name="output_name"></a> [name](#output\_name) | The name of the subnet |
+| <a name="output_nsg_association_id"></a> [nsg\_association\_id](#output\_nsg\_association\_id) | The ID of the Network Security Group Association |
 <!-- END_TF_DOCS -->
 
 ## License
