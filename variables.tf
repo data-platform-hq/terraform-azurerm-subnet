@@ -4,11 +4,6 @@ variable "name" {
   description = "The name of the subnet"
 }
 
-variable "env" {
-  type        = string
-  description = "Environment name"
-}
-
 variable "resource_group" {
   type        = string
   description = "The name of the resource group in which to create the storage account"
