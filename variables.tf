@@ -1,7 +1,11 @@
-# Required
 variable "name" {
   type        = string
   description = "The name of the subnet"
+}
+
+variable "env" {
+  type        = string
+  description = "Environment name"
 }
 
 variable "resource_group" {
@@ -19,7 +23,6 @@ variable "cidr" {
   description = "The address prefixes to use for the subnet"
 }
 
-# Optional
 variable "private_endpoint_network_policies_enabled" {
   type        = bool
   description = "Enable or Disable network policies for the private link endpoint on the subnet. Setting this to true will Disable the policy and setting this to false will Enable the policy: [true|false]"
