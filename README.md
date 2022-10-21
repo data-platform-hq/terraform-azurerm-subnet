@@ -1,4 +1,4 @@
-# Azure <> Terraform module
+# Azure Network Subnet Terraform module
 Terraform module for creation Azure Network Subnet
 
 ## Usage
