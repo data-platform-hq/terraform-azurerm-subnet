@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/data-platform-hq/terraform-azurerm-subnet/compare/v1.0.0...v1.1.0) (2022-10-21)
+
+
+### Features
+
+* added env variabled ([6cc6c57](https://github.com/data-platform-hq/terraform-azurerm-subnet/commit/6cc6c57560c29b6922597f70b267904a974d632a))
+
 # 1.0.0 (2022-10-18)
 
 
