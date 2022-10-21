@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/data-platform-hq/terraform-azurerm-subnet/compare/v1.1.0...v1.1.1) (2022-10-21)
+
+
+### Bug Fixes
+
+* removed env var ([0b3d884](https://github.com/data-platform-hq/terraform-azurerm-subnet/commit/0b3d88494e88938333468495bb3dd16f5122f491))
+
 # [1.1.0](https://github.com/data-platform-hq/terraform-azurerm-subnet/compare/v1.0.0...v1.1.0) (2022-10-21)
 
 
