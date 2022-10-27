@@ -30,7 +30,8 @@ variable "service_endpoints" {
   default = [
     "Microsoft.Storage",
     "Microsoft.KeyVault",
-    "Microsoft.Sql"
+    "Microsoft.Sql",
+    "Microsoft.Web"
   ]
 }
 
