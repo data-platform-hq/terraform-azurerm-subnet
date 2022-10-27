@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/data-platform-hq/terraform-azurerm-subnet/compare/v1.1.1...v1.2.0) (2022-10-27)
+
+
+### Features
+
+* update list default service endpoints ([f58056f](https://github.com/data-platform-hq/terraform-azurerm-subnet/commit/f58056f5bf0cf31eb6590e19c392477cbe7cef03))
+
 ## [1.1.1](https://github.com/data-platform-hq/terraform-azurerm-subnet/compare/v1.1.0...v1.1.1) (2022-10-21)
 
 
