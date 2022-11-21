@@ -17,3 +17,8 @@ output "nsg_association_id" {
   value       = var.nsg_id == "" ? "" : azurerm_subnet_network_security_group_association.this[0].id
   description = "The ID of the Network Security Group Association"
 }
+
+output "name_to_id_map" {
+  value       = { (azurerm_subnet.this.name) = azurerm_subnet.this.id }
+  description = "Map of Subnet Name to Id"
+}

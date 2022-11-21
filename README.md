@@ -49,6 +49,7 @@ No modules.
 | <a name="output_id"></a> [id](#output\_id) | The ID of the subnet |
 | <a name="output_name"></a> [name](#output\_name) | The name of the subnet |
 | <a name="output_nsg_association_id"></a> [nsg\_association\_id](#output\_nsg\_association\_id) | The ID of the Network Security Group Association |
+| <a name="name_to_id_map"></a> [id](#output\_name\_to\_id\_map) | Map of Subnet Name to Id |
 <!-- END_TF_DOCS -->
 
 ## License
