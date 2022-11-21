@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/data-platform-hq/terraform-azurerm-subnet/compare/v1.2.0...v1.2.1) (2022-11-21)
+
+
+### Bug Fixes
+
+* added new output ([72d632b](https://github.com/data-platform-hq/terraform-azurerm-subnet/commit/72d632b99d7573d4cb8175011d1dc4503a2abf71))
+
 # [1.2.0](https://github.com/data-platform-hq/terraform-azurerm-subnet/compare/v1.1.1...v1.2.0) (2022-10-27)
 
 
