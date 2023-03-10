@@ -49,3 +49,9 @@ variable "nsg_id" {
   description = "The ID of the Network Security Group which should be associated with the Subnet"
   default     = ""
 }
+
+variable "export_subnet_id" {
+  type        = string
+  description = "Exported subnet id"
+  default     = null
+}
