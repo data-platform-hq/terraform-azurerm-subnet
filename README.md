@@ -40,7 +40,7 @@ No modules.
 | <a name="input_private_endpoint_network_policies_enabled"></a> [private\_endpoint\_network\_policies\_enabled](#input\_private\_endpoint\_network\_policies\_enabled) | Enable or Disable network policies for the private link endpoint on the subnet. Setting this to true will Disable the policy and setting this to false will Enable the policy: [true\|false] | `bool` | `true` | no |
 | <a name="input_resource_group"></a> [resource\_group](#input\_resource\_group) | The name of the resource group in which to create the storage account | `string` | n/a | yes |
 | <a name="input_service_endpoints"></a> [service\_endpoints](#input\_service\_endpoints) | The list of Service endpoints to associate with the subnet: Microsoft.AzureActiveDirectory, Microsoft.AzureCosmosDB, Microsoft.ContainerRegistry, Microsoft.EventHub, Microsoft.KeyVault, Microsoft.ServiceBus, Microsoft.Sql, Microsoft.Storage, Microsoft.Web | `list(string)` | <pre>[<br>  "Microsoft.Storage",<br>  "Microsoft.KeyVault",<br>  "Microsoft.Sql"<br>]</pre> | no |
-| <a name="input_export_subnet_id"></a> [export\_subnet\_id](#input\_export\_subnet\_id) | Exported subnet id | `string` | null | no |
+| <a name="input_export_subnet_id"></a> [export\_subnet\_id](#input\_export\_subnet\_id) | ID of already existing subnet. Provide this value to associate existing subnet with given Network Security Group | `string` | null | no |
 
 ## Outputs
 
