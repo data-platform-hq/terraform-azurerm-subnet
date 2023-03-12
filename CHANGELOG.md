@@ -1,3 +1,14 @@
+## [1.2.2](https://github.com/data-platform-hq/terraform-azurerm-subnet/compare/v1.2.1...v1.2.2) (2023-03-12)
+
+
+### Bug Fixes
+
+* add ngs count ([11e732f](https://github.com/data-platform-hq/terraform-azurerm-subnet/commit/11e732fec2b6322144dd49b8d3079a3d38110c40))
+* add to output index ([b4ee599](https://github.com/data-platform-hq/terraform-azurerm-subnet/commit/b4ee5996fa15b353ec1de3517f23f0478deeda76))
+* changed output ([cc54388](https://github.com/data-platform-hq/terraform-azurerm-subnet/commit/cc54388a248d483201e28afc62dc0c1c172d403d))
+* import subnet id ([7e93ba3](https://github.com/data-platform-hq/terraform-azurerm-subnet/commit/7e93ba30ec37f5793b0bbbc03bbf56803dc27901))
+* terraform fmt ([0e3e079](https://github.com/data-platform-hq/terraform-azurerm-subnet/commit/0e3e079f1385e5712656f5de2b4cb728b480bbfc))
+
 ## [1.2.1](https://github.com/data-platform-hq/terraform-azurerm-subnet/compare/v1.2.0...v1.2.1) (2022-11-21)
 
 
