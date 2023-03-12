@@ -14,7 +14,7 @@ output "address_prefixes" {
 }
 
 output "nsg_association_id" {
-  value       = azurerm_subnet_network_security_group_association.this.id
+  value       = azurerm_subnet_network_security_group_association.this[0].id
   description = "The ID of the Network Security Group Association"
 }
 
