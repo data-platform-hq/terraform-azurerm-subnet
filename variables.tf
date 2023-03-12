@@ -47,7 +47,7 @@ variable "delegations" {
 variable "nsg_id" {
   type        = string
   description = "The ID of the Network Security Group which should be associated with the Subnet"
-  default     = ""
+  default     = null
 }
 
 variable "export_subnet_id" {
