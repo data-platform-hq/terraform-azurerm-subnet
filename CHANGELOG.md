@@ -1,3 +1,10 @@
+## [1.2.3](https://github.com/data-platform-hq/terraform-azurerm-subnet/compare/v1.2.2...v1.2.3) (2023-03-14)
+
+
+### Bug Fixes
+
+* changed output ([9a3e1a1](https://github.com/data-platform-hq/terraform-azurerm-subnet/commit/9a3e1a17d3429c8f7473a4d230ec171103bbf630))
+
 ## [1.2.2](https://github.com/data-platform-hq/terraform-azurerm-subnet/compare/v1.2.1...v1.2.2) (2023-03-12)
 
 
