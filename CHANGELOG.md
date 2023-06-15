@@ -1,3 +1,12 @@
+## [1.2.4](https://github.com/data-platform-hq/terraform-azurerm-subnet/compare/v1.2.3...v1.2.4) (2023-06-15)
+
+
+### Bug Fixes
+
+* switched to for_each ([3ded11c](https://github.com/data-platform-hq/terraform-azurerm-subnet/commit/3ded11c99c80e8ec0b8150d314d127ea1da13feb))
+* update outputs ([edf49f9](https://github.com/data-platform-hq/terraform-azurerm-subnet/commit/edf49f955af5b1988519d5d3f3a04039adecc8e6))
+* updated vars ([034a56e](https://github.com/data-platform-hq/terraform-azurerm-subnet/commit/034a56e335f91ecaa689b55e52c172f087e41a1e))
+
 ## [1.2.3](https://github.com/data-platform-hq/terraform-azurerm-subnet/compare/v1.2.2...v1.2.3) (2023-03-14)
 
 
