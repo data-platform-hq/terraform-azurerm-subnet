@@ -45,9 +45,9 @@ variable "delegations" {
 }
 
 variable "nsg_id" {
-  type        = string
+  type        = map(string)
   description = "The ID of the Network Security Group which should be associated with the Subnet"
-  default     = null
+  default     = {}
 }
 
 variable "export_subnet_id" {
