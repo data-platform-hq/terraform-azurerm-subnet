@@ -24,5 +24,5 @@ resource "azurerm_subnet_network_security_group_association" "this" {
   count = var.nsg_association_enabled ? 1 : 0
 
   subnet_id                 = var.export_subnet_id == null ? azurerm_subnet.this[0].id : var.export_subnet_id
-  network_security_group_id = each.nsg_id
+  network_security_group_id = var.nsg_id
 }
