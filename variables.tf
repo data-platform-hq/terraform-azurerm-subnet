@@ -44,10 +44,16 @@ variable "delegations" {
   default     = []
 }
 
+variable "nsg_association_enabled" {
+  type        = bool
+  description = "Boolean flag that determines if NSG association would be created"
+  default     = false
+}
+
 variable "nsg_id" {
-  type        = map(string)
+  type        = string
   description = "The ID of the Network Security Group which should be associated with the Subnet"
-  default     = {}
+  default     = null
 }
 
 variable "export_subnet_id" {
