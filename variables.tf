@@ -61,3 +61,15 @@ variable "export_subnet_id" {
   description = "ID of already existing subnet. Provide this value to associate existing subnet with given Network Security Group"
   default     = null
 }
+
+variable "nat_gateway_association_enabled" {
+  type        = bool
+  description = "Boolean flag that determines if NAT Gateway association would be created"
+  default     = false
+}
+
+variable "nat_gateway_id" {
+  type        = string
+  description = "ID of the NAT Gateway which would be assigned to subnet"
+  default     = null
+}
