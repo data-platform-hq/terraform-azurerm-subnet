@@ -26,3 +26,10 @@ resource "azurerm_subnet_network_security_group_association" "this" {
   subnet_id                 = var.export_subnet_id == null ? azurerm_subnet.this[0].id : var.export_subnet_id
   network_security_group_id = var.nsg_id
 }
+
+resource "azurerm_subnet_nat_gateway_association" "this" {
+  count = var.nat_gateway_association_enabled ? 1 : 0
+
+  subnet_id      = var.export_subnet_id == null ? azurerm_subnet.this[0].id : var.export_subnet_id
+  nat_gateway_id = var.nat_gateway_id
+}
