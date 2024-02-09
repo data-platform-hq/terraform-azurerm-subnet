@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/data-platform-hq/terraform-azurerm-subnet/compare/v1.2.6...v1.3.0) (2024-02-09)
+
+
+### Features
+
+* support nat gw association ([599b3c0](https://github.com/data-platform-hq/terraform-azurerm-subnet/commit/599b3c0a577a448e1e97342332f5fb2ee6a51cb7))
+
 ## [1.2.6](https://github.com/data-platform-hq/terraform-azurerm-subnet/compare/v1.2.5...v1.2.6) (2023-09-21)
 
 
