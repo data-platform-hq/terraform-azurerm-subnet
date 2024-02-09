@@ -57,3 +57,7 @@ No modules.
 | <a name="output_nat_gateway_association_id"></a> [nat\_gateway\_association\_id](#output\_nat\_gateway\_association\_id) | The ID of the NAT Gateway Association |
 | <a name="output_nsg_association_id"></a> [nsg\_association\_id](#output\_nsg\_association\_id) | The ID of the Network Security Group Association |
 <!-- END_TF_DOCS -->
+
+## License
+
+Apache 2 Licensed. For more information please see [LICENSE](https://github.com/data-platform-hq/terraform-azurerm-subnet/tree/main/LICENSE)
