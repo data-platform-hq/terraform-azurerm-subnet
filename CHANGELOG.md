@@ -1,3 +1,16 @@
+# [1.4.0](https://github.com/data-platform-hq/terraform-azurerm-subnet/compare/v1.3.0...v1.4.0) (2024-04-04)
+
+
+### Bug Fixes
+
+* added security KICS scan action ([0f52cb3](https://github.com/data-platform-hq/terraform-azurerm-subnet/commit/0f52cb374ad08710186aae775611d6da06cf9484))
+* replaced pre-commit repo docs creation/update by GH Actions ([9c8cf22](https://github.com/data-platform-hq/terraform-azurerm-subnet/commit/9c8cf226866c00e6177620b60e60327391c92029))
+
+
+### Features
+
+* support route table association ([4d0e7b6](https://github.com/data-platform-hq/terraform-azurerm-subnet/commit/4d0e7b62cf62ca8c92d3c92f0638534935444b0e))
+
 # [1.3.0](https://github.com/data-platform-hq/terraform-azurerm-subnet/compare/v1.2.6...v1.3.0) (2024-02-09)
 
 
