@@ -23,6 +23,11 @@ output "nat_gateway_association_id" {
   description = "The ID of the NAT Gateway Association"
 }
 
+output "route_table_association_id" {
+  value       = try(azurerm_subnet_route_table_association.this[0].id, null)
+  description = "The ID of the Route Table Association"
+}
+
 output "name_to_id_map" {
   value       = var.export_subnet_id == null ? { (azurerm_subnet.this[0].name) = azurerm_subnet.this[0].id } : null
   description = "Map of Subnet Name to Id"

@@ -73,3 +73,15 @@ variable "nat_gateway_id" {
   description = "ID of the NAT Gateway which would be assigned to subnet"
   default     = null
 }
+
+variable "route_table_association_enabled" {
+  type        = bool
+  description = "Boolean flag that determines if Route Table association would be created"
+  default     = false
+}
+
+variable "route_table_id" {
+  type        = string
+  description = "ID of the Route Table which would be assigned to subnet"
+  default     = null
+}
