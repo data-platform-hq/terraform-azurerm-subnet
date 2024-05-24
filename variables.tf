@@ -18,9 +18,15 @@ variable "cidr" {
   description = "The address prefixes to use for the subnet"
 }
 
-variable "private_endpoint_network_policies_enabled" {
+variable "private_endpoint_network_policies" {
+  type        = string
+  description = "Enable or Disable network policies for the private endpoint on the subnet. Possible values: [Disabled|Enabled|NetworkSecurityGroupEnabled|RouteTableEnabled]"
+  default     = "Enabled"
+}
+
+variable "private_link_service_network_policies_enabled" {
   type        = bool
-  description = "Enable or Disable network policies for the private link endpoint on the subnet. Setting this to true will Disable the policy and setting this to false will Enable the policy: [true|false]"
+  description = "Enable or Disable network policies for the private link service on the subnet. Setting this to true will Enable the policy and setting this to false will Disable the policy: [true|false]"
   default     = true
 }
 
