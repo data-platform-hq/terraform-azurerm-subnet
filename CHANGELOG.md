@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/data-platform-hq/terraform-azurerm-subnet/compare/v1.4.0...v1.4.1) (2024-05-24)
+
+
+### Bug Fixes
+
+* remove deprecated parameters ([86fe33e](https://github.com/data-platform-hq/terraform-azurerm-subnet/commit/86fe33e32728840cdb1573f9bbd9f03cff12e163))
+
 # [1.4.0](https://github.com/data-platform-hq/terraform-azurerm-subnet/compare/v1.3.0...v1.4.0) (2024-04-04)
 
 
