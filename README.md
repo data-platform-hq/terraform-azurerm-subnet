@@ -9,13 +9,13 @@ Terraform module for creation Azure Network Subnet
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.0.0 |
-| <a name="requirement_azurerm"></a> [azurerm](#requirement\_azurerm) | >= 3.40.0 |
+| <a name="requirement_azurerm"></a> [azurerm](#requirement\_azurerm) | >= 3.104.2 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_azurerm"></a> [azurerm](#provider\_azurerm) | >= 3.40.0 |
+| <a name="provider_azurerm"></a> [azurerm](#provider\_azurerm) | >= 3.104.2 |
 
 ## Modules
 
@@ -43,7 +43,8 @@ No modules.
 | <a name="input_network"></a> [network](#input\_network) | The name of the virtual network in which the subnet is created in | `string` | n/a | yes |
 | <a name="input_nsg_association_enabled"></a> [nsg\_association\_enabled](#input\_nsg\_association\_enabled) | Boolean flag that determines if NSG association would be created | `bool` | `false` | no |
 | <a name="input_nsg_id"></a> [nsg\_id](#input\_nsg\_id) | The ID of the Network Security Group which should be associated with the Subnet | `string` | `null` | no |
-| <a name="input_private_endpoint_network_policies_enabled"></a> [private\_endpoint\_network\_policies\_enabled](#input\_private\_endpoint\_network\_policies\_enabled) | Enable or Disable network policies for the private link endpoint on the subnet. Setting this to true will Disable the policy and setting this to false will Enable the policy: [true\|false] | `bool` | `true` | no |
+| <a name="input_private_endpoint_network_policies"></a> [private\_endpoint\_network\_policies](#input\_private\_endpoint\_network\_policies) | Enable or Disable network policies for the private endpoint on the subnet. Possible values: [Disabled\|Enabled\|NetworkSecurityGroupEnabled\|RouteTableEnabled] | `string` | `"Enabled"` | no |
+| <a name="input_private_link_service_network_policies_enabled"></a> [private\_link\_service\_network\_policies\_enabled](#input\_private\_link\_service\_network\_policies\_enabled) | Enable or Disable network policies for the private link service on the subnet. Setting this to true will Enable the policy and setting this to false will Disable the policy: [true\|false] | `bool` | `true` | no |
 | <a name="input_resource_group"></a> [resource\_group](#input\_resource\_group) | The name of the resource group in which to create the storage account | `string` | n/a | yes |
 | <a name="input_route_table_association_enabled"></a> [route\_table\_association\_enabled](#input\_route\_table\_association\_enabled) | Boolean flag that determines if Route Table association would be created | `bool` | `false` | no |
 | <a name="input_route_table_id"></a> [route\_table\_id](#input\_route\_table\_id) | ID of the Route Table which would be assigned to subnet | `string` | `null` | no |
