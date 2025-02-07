@@ -5,12 +5,12 @@ variable "name" {
 
 variable "resource_group" {
   type        = string
-  description = "The name of the resource group in which to create the storage account"
+  description = "The name of the resource group in which to create the subnet"
 }
 
 variable "network" {
   type        = string
-  description = "The name of the virtual network in which the subnet is created in"
+  description = "The name of the virtual network in which the subnet is created"
 }
 
 variable "cidr" {
@@ -32,7 +32,7 @@ variable "private_link_service_network_policies_enabled" {
 
 variable "service_endpoints" {
   type        = list(string)
-  description = "The list of Service endpoints to associate with the subnet: Microsoft.AzureActiveDirectory, Microsoft.AzureCosmosDB, Microsoft.ContainerRegistry, Microsoft.EventHub, Microsoft.KeyVault, Microsoft.ServiceBus, Microsoft.Sql, Microsoft.Storage, Microsoft.Web"
+  description = "The list of Service endpoints to associate with the subnet. Possible values: Microsoft.AzureActiveDirectory, Microsoft.AzureCosmosDB, Microsoft.ContainerRegistry, Microsoft.EventHub, Microsoft.KeyVault, Microsoft.ServiceBus, Microsoft.Sql, Microsoft.Storage, Microsoft.Web etc."
   default = [
     "Microsoft.Storage",
     "Microsoft.KeyVault",
